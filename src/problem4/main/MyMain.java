@@ -20,33 +20,22 @@ public class MyMain {
         MyBinarySearchTree m = new MyBinarySearchTree();
         MyQueue q = new MyQueue();
         TreeNode root;
-        root = new TreeNode(10);
-
-        m.insert(root, 5);
-
-        m.insert(root, 1);
-
-        m.insert(root, 15);
-
-        m.insert(root, 9);
-
-        m.insert(root, 7);
-
-        m.insert(root, 12);
-
-        m.insert(root, 30);
-
-        m.insert(root, 25);
-
-        m.insert(root, 40);
-
-        m.insert(root, 45);
-
+        root = new TreeNode(12);
+        m.insert(root, 4);
+        m.insert(root, 2);
+        m.insert(root, 13);
+        m.insert(root, 8);
         m.insert(root, 6);
+        m.insert(root, 11);
+        m.insert(root, 26);
+        m.insert(root, 22);
+        m.insert(root, 33);
+        m.insert(root, 42);
+        m.insert(root, 1);
+        m.insert(root, 88);
         q.preOrder(root);
         q.queuePrint(q);
         System.out.print("Enter to find preorder Successor : ");
-
         q.printSuccessor(sc.nextInt());
 
     }
