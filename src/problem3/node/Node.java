@@ -6,5 +6,13 @@
  */
 package problem3.node;
 
+//import problem3.myqueue.MyPriorityQueue;
+//import problem3.main.MyMain;
+//import problem1.node.TreeNode;
 public class Node {
+    int data;
+    Node next;
+
 }
+
+
