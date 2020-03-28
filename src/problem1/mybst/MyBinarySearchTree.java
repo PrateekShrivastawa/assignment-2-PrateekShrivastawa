@@ -27,7 +27,7 @@ public class MyBinarySearchTree {
     }
 
     public TreeNode createnewnode(int a) {
-        TreeNode obj1 = new TreeNode();
+        TreeNode obj1 = new TreeNode(a);
         obj1.data = a;
         obj1.left = null;
         obj1.right = null;

@@ -11,6 +11,9 @@ public class TreeNode {
     public TreeNode left;
     public TreeNode right;
 
+    public TreeNode(int i) {
+    }
+
     public int getData() {
         return data;
     }
